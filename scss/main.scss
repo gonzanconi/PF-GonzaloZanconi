@@ -1,0 +1,103 @@
+.bodyBahiami {
+    display: grid;
+    grid-template-rows: 0.1fr 0.5fr 1fr;
+}
+
+.cajaMenu {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(41, 212, 212);
+    font-size: 100%;
+    color: rgb(206, 50, 154);
+    background-image: linear-gradient(to bottom,rgb(206, 50, 154),rgb(41, 219, 219) );
+
+  display: grid;
+  grid-template-rows: 150px 90px 150px;
+  .titulo {
+    color:  rgb(206, 50, 154);
+    text-align: center;
+    background-color: rgb(41, 212, 212);
+    font-size: 60px;
+}
+}
+
+.menuprincipal ul li {
+    border: groove 3px rgb(41, 212, 212);
+    padding: 20px 20px;
+    display: inline-block;
+    color: rgb(41, 219, 219);
+    background-color: rgb(206, 50, 154);
+}
+
+.cajaContenedora div {
+    width: 100%;
+    height: 750px;
+    background-color: rgb(206, 50, 154);
+    font-size: 150%;
+    color: rgb(41, 212, 212);
+
+    display: flex;
+    flex-direction: column;
+   
+    .descripcionequipo {
+        text-align: center;
+    }.bienvenida {
+        background-color: rgb(41, 212, 212);
+        color: rgb(206, 50, 154);
+        text-align: center;
+        padding: 50px;
+        
+    }.descripcionequipo {
+        text-align: center;
+    }
+    
+
+    
+}
+.noticias {
+    color:  rgb(206, 50, 154);
+    text-align: center;
+    background-color: rgb(41, 212, 212);
+    font-size: 20px;
+    padding-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.fotoequipo {
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-bottom: 10px;
+    width: 500px;
+    height: 500px;
+
+    transform: translate(-220px, -420px);
+}
+
+.galeria {
+    color: rgb(41, 219, 219);
+    background-color: rgb(206, 50, 154);
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.derechos {
+    text-align: center;
+}
+
+
+.historia {
+    font-size: 20px;
+    width: 250px;
+    margin-left: 550px;
+}
+
+
+
+
+
+
+
