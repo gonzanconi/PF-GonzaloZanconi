@@ -1,62 +1,43 @@
-.bodyBahiami {
-  display: grid; }
-
 .cajaMenu {
-  color: #29dbdb;
-  background-color: #ce329a; }
-  .cajaMenu .titulo {
+  background-color: #ce329a;
+  padding: 50px;
+  background-image: linear-gradient(to bottom, #ce329a, #29dbdb); }
+  .cajaMenu #titulo {
     color: #29dbdb;
-    background-color: #ce329a;
     text-align: center;
     font-size: 80px;
-    padding: 30px; }
-  .cajaMenu .menuprincipal ul li {
+    padding-bottom: 40px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .cajaMenu #menuprincipal ul li {
     border: groove 3px #29d4d4;
-    padding: 35px 35px;
+    padding: 20px 55px;
     display: inline-block;
     color: #29dbdb;
-    background-color: #ce329a;
-    background-image: linear-gradient(to bottom, #ce329a, #29dbdb); }
-  .cajaMenu .bienvenida {
-    background-color: #29d4d4;
+    background-color: #ce329a; }
+  .cajaMenu #bienvenida {
     color: #ce329a;
     text-align: center;
-    padding: 50px; }
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .cajaContenedora {
-  color: #29dbdb;
-  background-color: #ce329a;
-  padding-bottom: 10px; }
-  .cajaContenedora .nostros {
-    padding-bottom: 10%; }
-  .cajaContenedora .descripcionequipo {
-    font-size: 30px;
-    text-align: center; }
-  .cajaContenedora .fotoequipo {
-    padding-top: 100px;
-    padding-left: 250px;
-    padding-bottom: 10%;
-    width: 500px;
-    height: 500px;
-    transform: translate(-200px, -420px); }
-  .cajaContenedora .historia {
+  background-color: #29d4d4;
+  background-image: linear-gradient(to bottom, #29dbdb, #ce329a); }
+  .cajaContenedora #descripcionequipo {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .cajaContenedora #historia {
     font-size: 20px;
-    width: 250px;
-    margin-left: 650px; }
-  .cajaContenedora .noticias {
-    color: #ce329a;
-    text-align: center;
-    background-color: #29d4d4;
-    font-size: 20px;
+    width: 250px; }
+  .cajaContenedora #fotoequipo {
     padding-top: 10px;
-    display: flex;
-    flex-direction: column; }
-  .cajaContenedora .galeria {
-    color: #29dbdb;
-    background-color: #ce329a;
-    text-align: center;
-    display: flex;
-    flex-direction: column; }
+    padding-bottom: 100px;
+    width: 650px;
+    height: 615px; }
 
-.derechos {
-  text-align: center; }
+#titulonoticias {
+  text-align: center;
+  color: #29dbdb;
+  font-size: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }

@@ -8,17 +8,19 @@
     <title>Bahiami Heat</title>
 
     <link rel="shortcut icon" href="multimedia/favicon.ico" type="image/x-icon">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body class="bodyBahiami">
+<body class="container-fluid">
 
-    <header class="cajaMenu">
+    <header class="cajaMenu row">
 
-        <h1 class="titulo">BAHIAMI HEAT</h1>
+        <h1 class="col-md-12" id="titulo">BAHIAMI HEAT</h1>
         
-        <nav class="menuprincipal">
+        <nav class="col-md-12" id="menuprincipal">
             <ul>
                 <li>Inicio</a></li>
                 <li>Noticias</li>
@@ -28,35 +30,36 @@
             </ul>
         </nav>
 
-        <h1 class="bienvenida">BIENVENIDO AL SITIO WEB OFICIAL DEL SIFONERO</h1>
+        <h1 id="bienvenida">BIENVENIDO AL SITIO WEB OFICIAL DEL SIFONERO</h1>
 
     </header>
 
-    <main class="cajaContenedora">
+    <main class="cajaContenedora row">
 
-        <section class="nosotros">
+        <section>
                
-              <div>
+              <p id="descripcionequipo">Esta institución es una franquicia deportiva amateur dedicada exclusivamente al basquetbol. Fue fundada en el año 2022, con sede en la ciudad de Bahia Blanca. Actualmente participa en la segunda división de la Liga Amateur de Basquetbol bahiense siendo serio candidato al campeonato y a su consecuente ascenso  </p>
 
-                <p class="descripcionequipo">Esta institución es una franquicia deportiva amateur dedicada exclusivamente al basquetbol. Fue fundada en el año 2022, con sede en la ciudad de Bahia Blanca. Actualmente participa en la segunda división de la Liga Amateur de Basquetbol bahiense siendo serio candidato al campeonato y a su consecuente ascenso  </p>
+                <div class="row">
 
-                <p class="historia">"Somos un equipo formado a partir de un grupo de amigos el cual esta integrado por exjugadores de la ciudad de Bahia Blanca, los cuales decidimos dedicarnos al amateurismo. Nuestro objetivo es lograr que la franquicia que creamos con tanto esfuerzo y dedicacion se gane un renombre a nivel nacional sin dejar de lado el sector competitivo" Gonzalo Zanconi  </p>
+                <p class="col-md-6" id="historia">"Somos un equipo formado a partir de un grupo de amigos el cual esta integrado por exjugadores de la ciudad de Bahia Blanca, los cuales decidimos dedicarnos al amateurismo. Nuestro objetivo es lograr que la franquicia que creamos con tanto esfuerzo y dedicacion se gane un renombre a nivel nacional sin dejar de lado el sector competitivo" Gonzalo Zanconi  </p>
 
-                <img class="fotoequipo" src="multimedia/WhatsApp Image 2022-09-27 at 8.43.33 PM.jpeg" alt="Foto Del Equipo">
+                <img class="col-md-6" id="fotoequipo" src="multimedia/WhatsApp Image 2022-09-27 at 8.43.33 PM.jpeg" alt="Foto Del Equipo">
             
-              </div>
+                </div>
+              
 
         </section>
         
-        <section class="noticias">
+        <section class="row">
 
-            <h2>NOTICIAS SIFONERAS</h2>
-            <H3>BAHIAMIA SE PREPARA PARA EL PRIMER ENCUENTRO DE PLAYOFFS</H3>
-            <P>El conjunto sifonero se enfrentara la noche del 7 de Noviembre a Autenticos Verdugos en un encuentro que dara choque a un plantel de amplia superioridad frente a un conjunto predominado por jugadores de alta edad. Sin mas que decir es la noche perfecta para decir "JUGADORES JUEGUEN COMO ESCABIAN"</P>
+            <h2 id="titulonoticias">NOTICIAS SIFONERAS</h2>
+            <H3>WIN OR GO HOME</H3>
+            <P>Luego de haber sufrido una dura derrota en el segundo juego de la serie contra Autenticos Verdugos el conjunto sifonero se encuentra obligado a ganar el mano a mano. Con la falta de dos de sus estrellas y algunas lesiones de por medio el conjunto debera contar con una gran noche de Zanconi, quien viene no teniendo muy buenas jornadas. SERA ESTA SU REDENCION?</P>
 
         </section>
 
-        <section class="galeria">
+        <section id="galeria">
 
             <h2>NUESTRA GALERIA</h2>
 
@@ -67,6 +70,9 @@
     <footer>
         <p class="derechos">Todos los derechos reservados</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 
 </body>
 
