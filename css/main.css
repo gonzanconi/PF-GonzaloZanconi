@@ -99,3 +99,16 @@
     text-align: center;
     padding-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.conoce {
+  background-color: #29d4d4; }
+  .conoce #tituloconoce {
+    color: #ce329a;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .conoce #descripcionconoce {
+    color: #ce329a;
+    text-align: center;
+    padding-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
