@@ -38,12 +38,14 @@
     }    background-image: linear-gradient(to bottom,rgb(41, 219, 219),rgb(206, 50, 154) );
 
     #historia {
+        padding-top: 50px;
+        font-style: italic;
         font-size: 20px;
         width: 250px;
     }
 
     #fotoequipo {
-        padding-top: 10px;
+        padding-top: 50px;
         padding-bottom: 100px;
         width: 650px;
         height: 615px;
@@ -52,7 +54,37 @@
 
 #titulonoticias {
         text-align: center;
-        color: rgb(41, 219, 219);
+        color: rgb(206, 50, 154);
         font-size: 60px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+#noticia1 {
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(206, 50, 154);
+}
+#descripcionNoticia1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#galeria {
+    text-align: center;
+    color: rgb(206, 50, 154);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 35px;
+}
+
+.ordengaleria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+.fotito {
+    width: 100%;
+    height: 100%;
+}
+
+.derechos {
+    text-align: center;
+    }
