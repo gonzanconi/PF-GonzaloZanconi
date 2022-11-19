@@ -1,3 +1,5 @@
+/*CSS INDEX*/
+
 .cajaMenu {
     background-color: rgb(206, 50, 154);
     padding: 50px;
@@ -14,7 +16,7 @@
     
     #menuprincipal ul li {
         border: groove 3px rgb(41, 212, 212);
-        padding: 20px 55px;
+        padding: 25px 55px;
         display: inline-block;
         color: rgb(41, 219, 219);
         background-color: rgb(206, 50, 154);
@@ -25,6 +27,7 @@
         text-align: center;
         padding-top: 50px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
     }
         
 }
@@ -33,6 +36,7 @@
     background-color: rgb(41, 212, 212);
 
     #descripcionequipo {
+        padding-top: 15px;
         font-size: 25px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }    background-image: linear-gradient(to bottom,rgb(41, 219, 219),rgb(206, 50, 154) );
@@ -68,6 +72,17 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#noticia2 {
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(206, 50, 154);
+}
+
+#descripcionNoticia2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #galeria {
     text-align: center;
     color: rgb(206, 50, 154);
@@ -87,7 +102,7 @@
 
 .derechos {
     text-align: center;
-    }
+}
 
 /* CSS PAGINA EQUIPO*/
 
@@ -117,6 +132,7 @@
         display: inline-block;
         color: rgb(41, 219, 219);
         background-color: rgb(206, 50, 154);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     #bienvenidaequipo {
@@ -124,6 +140,7 @@
         text-align: center;
         padding-top: 50px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
     }
 }
 
@@ -142,4 +159,126 @@
         padding-top: 50px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+}
+
+.plantel {
+    background-color: rgb(41, 212, 212);
+    padding-top: 50px;
+
+    #nuestroplantel {
+        color: rgb(206, 50, 154);
+        text-align: center;
+        padding-top: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.tabla {
+    border-spacing: 2px;
+    #jugador{
+        color: rgb(206, 50, 154);
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #posicion {
+        color: rgb(206, 50, 154);
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #dorsal {
+        color: rgb(206, 50, 154);
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.conocejugadores {
+    background-color: rgb(41, 212, 212);
+    background-image: linear-gradient(to bottom,rgb(41, 219, 219),rgb(206, 50, 154) );
+    padding-top: 50px;
+
+    #players {
+        color: rgb(206, 50, 154);
+        text-align: center;
+        padding-top: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .gonza {
+        
+        #titulogonza {
+            text-align: center;
+            padding-top: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #biografia {
+            padding-top: 50px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+        }
+    }
+}
+
+.derechos2 {
+    text-align: center;
+}
+
+/*CSS PAGINA CONTACTO*/
+
+.cajamenu3 {
+    background-color: rgb(206, 50, 154);
+    padding: 50px;
+    background-image: linear-gradient(to bottom,rgb(206, 50, 154),rgb(41, 219, 219) );
+    
+    #titulocontacto {
+        color: rgb(41, 219, 219);
+        text-align: center;
+        font-size: 80px;
+        padding-bottom: 40px;
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #menuprincipalcontacto ul li {
+        border: groove 3px rgb(41, 212, 212);
+        padding: 20px 45px;
+        display: inline-block;
+        color: rgb(41, 219, 219);
+        background-color: rgb(206, 50, 154);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #bienvenidacontacto {
+        color: rgb(206, 50, 154);
+        text-align: center;
+        padding-top: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: italic;
+    }
+}
+
+.mensaje {
+    background-color: rgb(41, 212, 212);
+    background-image: linear-gradient(to bottom,rgb(41, 219, 219),rgb(206, 50, 154) );
+    padding-top: 50px;
+
+    #titulomensaje {
+        color: rgb(206, 50, 154);
+        text-align: center;
+        font-size: 30px;
+        padding-bottom: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #escribimensaje {
+        font-style: italic;
+        font-size: 20px;
+        padding-bottom: 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+}
+
+.derechos3 {
+    text-align: center;
 }
