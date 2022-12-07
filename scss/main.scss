@@ -1,51 +1,54 @@
 /*CSS INDEX*/
 
 .cajaMenu {
-    background-color: rgb(206, 50, 154);
+    background-color: rgb(76, 76, 76);
     padding: 50px;
-    background-image: linear-gradient(to bottom,rgb(206, 50, 154),rgb(41, 219, 219) );
+   
 
     #titulo {
-        color: rgb(41, 219, 219);
+        color: rgb(255, 255, 255);
         text-align: center;
         font-size: 80px;
         padding-bottom: 40px;
-        font-style: italic;
+        font-style: bold;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     
     #menuprincipal ul li {
-        border: groove 3px rgb(41, 212, 212);
+        border: groove 3px rgb(8, 8, 8);
         padding: 25px 55px;
         display: inline-block;
-        color: rgb(41, 219, 219);
-        background-color: rgb(206, 50, 154);
+        color: rgb(8, 8, 8);
+        background-color: rgb(41, 212, 212);
     }
     
     #bienvenida {
         color: rgb(206, 50, 154);
         text-align: center;
-        padding-top: 50px;
+        padding-top: 80px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-style: italic;
+        font-style: normal;
+        font-size: 35px;
     }
         
 }
 
 .cajaContenedora {
-    background-color: rgb(41, 212, 212);
+    background-color: rgb(76, 76, 76);
 
-    #descripcionequipo {
+    .descripcionequipo {
         padding-top: 15px;
-        font-size: 25px;
+        font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }    background-image: linear-gradient(to bottom,rgb(41, 219, 219),rgb(206, 50, 154) );
+        color:  rgb(255, 255, 255) ;
+    }   
 
     #historia {
         padding-top: 50px;
         font-style: italic;
         font-size: 20px;
         width: 250px;
+        color:  rgb(255, 255, 255) ;
     }
 
     #fotoequipo {
@@ -54,50 +57,6 @@
         width: 650px;
         height: 615px;
     }
-}
-
-#titulonoticias {
-        text-align: center;
-        color: rgb(206, 50, 154);
-        font-size: 60px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#noticia1 {
-    text-align: center;
-    padding-top: 15px;
-    color: rgb(206, 50, 154);
-}
-#descripcionNoticia1 {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#noticia2 {
-    text-align: center;
-    padding-top: 15px;
-    color: rgb(206, 50, 154);
-}
-
-#descripcionNoticia2 {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-#galeria {
-    text-align: center;
-    color: rgb(206, 50, 154);
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 35px;
-}
-
-.ordengaleria {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr)
-}
-.fotito {
-    width: 100%;
-    height: 100%;
 }
 
 .derechos {
@@ -113,48 +72,47 @@
 }
 
 .cajamenu2 {
-    background-color: rgb(206, 50, 154);
+    background-color: rgb(76, 76, 76);
     padding: 50px;
-    background-image: linear-gradient(to bottom,rgb(206, 50, 154),rgb(41, 219, 219) );
     
     #tituloequipo {
-        color: rgb(41, 219, 219);
+        color: rgb(255, 255, 255);
         text-align: center;
         font-size: 80px;
         padding-bottom: 40px;
-        font-style: italic;
+        font-style: bold;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     #menuprincipalequipo ul li {
-        border: groove 3px rgb(41, 212, 212);
+        border: groove 3px rgb(8, 8, 8);
         padding: 20px 45px;
         display: inline-block;
-        color: rgb(41, 219, 219);
-        background-color: rgb(206, 50, 154);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(8, 8, 8);
+        background-color: rgb(41, 212, 212);
     }
 
     #bienvenidaequipo {
         color: rgb(206, 50, 154);
         text-align: center;
-        padding-top: 50px;
+        padding-top: 80px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-style: italic;
+        font-style: normal;
+        font-size: 35px;
     }
 }
 
 .conoce {
-    background-color: rgb(41, 212, 212);
+    background-color: rgb(76, 76, 76);
 
     #tituloconoce {
-        color: rgb(206, 50, 154);
+        color: rgb(255, 255, 255);
         text-align: center;
         padding-top: 50px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
     #descripcionconoce {
-        color: rgb(206, 50, 154);
+        color: rgb(41, 212, 212);
         text-align: center;
         padding-top: 50px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -162,7 +120,7 @@
 }
 
 .plantel {
-    background-color: rgb(41, 212, 212);
+    background-color: rgb(76, 76, 76);      
     padding-top: 50px;
 
     #nuestroplantel {
@@ -175,6 +133,19 @@
 
 .tabla {
     border-spacing: 2px;
+    border-color: rgb(41, 212, 212);
+
+    .jugadores {
+        color: rgb(255, 255, 255);
+    }
+    .posiciones {
+        color: rgb(255, 255, 255);
+    }
+    .numeros {
+        color: rgb(255, 255, 255);
+    }
+
+
     #jugador{
         color: rgb(206, 50, 154);
         font-style: italic;
@@ -193,12 +164,11 @@
 }
 
 .conocejugadores {
-    background-color: rgb(41, 212, 212);
-    background-image: linear-gradient(to bottom,rgb(41, 219, 219),rgb(206, 50, 154) );
+    background-color: rgb(76, 76, 76);
     padding-top: 50px;
 
     #players {
-        color: rgb(206, 50, 154);
+        color: rgb(255, 255, 255);
         text-align: center;
         padding-top: 50px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -206,12 +176,19 @@
 
     .gonza {
         
+        .datos {
+            color: rgb(255, 255, 255);
+            padding-top: 15px;
+        }
+
         #titulogonza {
+            color: rgb(41, 212, 212);
             text-align: center;
             padding-top: 50px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
         #biografia {
+            color: rgb(255, 255, 255);
             padding-top: 50px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-style: italic;
@@ -226,59 +203,205 @@
 /*CSS PAGINA CONTACTO*/
 
 .cajamenu3 {
-    background-color: rgb(206, 50, 154);
+    background-color: rgb(76, 76, 76);
     padding: 50px;
-    background-image: linear-gradient(to bottom,rgb(206, 50, 154),rgb(41, 219, 219) );
     
     #titulocontacto {
-        color: rgb(41, 219, 219);
+        color: rgb(255, 255, 255);
         text-align: center;
         font-size: 80px;
         padding-bottom: 40px;
-        font-style: italic;
+        font-style: bold;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     #menuprincipalcontacto ul li {
-        border: groove 3px rgb(41, 212, 212);
+        border: groove 3px rgb(8, 8, 8);
         padding: 20px 45px;
         display: inline-block;
-        color: rgb(41, 219, 219);
-        background-color: rgb(206, 50, 154);
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(8, 8, 8);
+        background-color: rgb(41, 212, 212);
     }
 
     #bienvenidacontacto {
         color: rgb(206, 50, 154);
         text-align: center;
-        padding-top: 50px;
+        padding-top: 80px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-style: italic;
+        font-style: normal;
+        font-size: 35px;
     }
 }
 
 .mensaje {
-    background-color: rgb(41, 212, 212);
-    background-image: linear-gradient(to bottom,rgb(41, 219, 219),rgb(206, 50, 154) );
+    background-color: rgb(76, 76, 76);
     padding-top: 50px;
 
     #titulomensaje {
-        color: rgb(206, 50, 154);
+        color: rgb(255, 255, 255);
         text-align: center;
-        font-size: 30px;
+        font-size: 35px;
         padding-bottom: 40px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
     #escribimensaje {
+        color: rgb(41, 212, 212);
         font-style: italic;
         font-size: 20px;
+        padding-top: 40px;
         padding-bottom: 40px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
 }
 
+.colorcito {
+    color: rgb(255, 255, 255);
+}
+
 .derechos3 {
     text-align: center;
 }
+
+/* CSS PAGINA NOTICIAS */
+
+.cajaMenu4 {
+    background-color: rgb(76, 76, 76);
+    padding: 50px;
+
+    #titulonoticias {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 80px;
+        padding-bottom: 40px;
+        font-style: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #menuprincipalnoticias ul li {
+        border: groove 3px rgb(8, 8, 8);
+        padding: 20px 45px;
+        display: inline-block;
+        color: rgb(8, 8, 8);
+        background-color: rgb(41, 212, 212);
+    }
+
+    #bienvenidanoticias {
+        color: rgb(206, 50, 154);
+        text-align: center;
+        padding-top: 80px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-size: 35px;
+
+    }
+
+}
+
+.cajanoticias {
+    background-color: rgb(76, 76, 76);
+    padding: 50px;
+}
+
+.titulonoticias {
+   text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.noticia1 {
+text-align: center;
+padding-top: 40px;
+color: rgb(41, 212, 212);
+}
+#descripcionNoticia1 {
+color: rgb(255, 255, 255);    
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.noticia2 {
+text-align: center;
+padding-top: 15px;
+color: rgb(41, 212, 212);
+}
+
+#descripcionNoticia2 {
+color: rgb(255, 255, 255);
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.derechos4 {
+    text-align: center;
+}
+
+/* CSS PAGINA GALERIA */
+
+.cajaMenu5 {
+    background-color: rgb(76, 76, 76);
+    padding: 30px;
+    
+    #titulogaleria {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 80px;
+        padding-bottom: 40px;
+        font-style: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #menuprincipalGaleria ul li {
+        border: groove 3px rgb(8, 8, 8);
+        padding: 20px 45px;
+        display: inline-block;
+        color: rgb(8, 8, 8);
+        background-color: rgb(41, 212, 212);
+    }
+
+    #bienvenidagaleria {
+        color: rgb(206, 50, 154);
+        text-align: center;
+        padding-top: 80px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-style: normal;
+        font-size: 35px;
+
+    }
+
+}
+
+
+
+.cajagaleria {
+    background-color: rgb(76, 76, 76);
+    padding: 50px;
+
+}
+
+
+.galeria {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.ordengaleria {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+.fotito {
+    width: 100%;
+    height: 100%;
+}
+
+.derechos5 {
+    text-align: center;
+}
+
+
+

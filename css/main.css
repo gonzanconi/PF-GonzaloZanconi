@@ -1,84 +1,46 @@
 /*CSS INDEX*/
 .cajaMenu {
-  background-color: #ce329a;
-  padding: 50px;
-  background-image: linear-gradient(to bottom, #ce329a, #29dbdb); }
+  background-color: #4c4c4c;
+  padding: 50px; }
   .cajaMenu #titulo {
-    color: #29dbdb;
+    color: white;
     text-align: center;
     font-size: 80px;
     padding-bottom: 40px;
-    font-style: italic;
+    font-style: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
   .cajaMenu #menuprincipal ul li {
-    border: groove 3px #29d4d4;
+    border: groove 3px #080808;
     padding: 25px 55px;
     display: inline-block;
-    color: #29dbdb;
-    background-color: #ce329a; }
+    color: #080808;
+    background-color: #29d4d4; }
   .cajaMenu #bienvenida {
     color: #ce329a;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic; }
+    font-style: normal;
+    font-size: 35px; }
 
 .cajaContenedora {
-  background-color: #29d4d4;
-  background-image: linear-gradient(to bottom, #29dbdb, #ce329a); }
-  .cajaContenedora #descripcionequipo {
+  background-color: #4c4c4c; }
+  .cajaContenedora .descripcionequipo {
     padding-top: 15px;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white; }
   .cajaContenedora #historia {
     padding-top: 50px;
     font-style: italic;
     font-size: 20px;
-    width: 250px; }
+    width: 250px;
+    color: white; }
   .cajaContenedora #fotoequipo {
     padding-top: 50px;
     padding-bottom: 100px;
     width: 650px;
     height: 615px; }
-
-#titulonoticias {
-  text-align: center;
-  color: #ce329a;
-  font-size: 60px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
-
-#noticia1 {
-  text-align: center;
-  padding-top: 15px;
-  color: #ce329a; }
-
-#descripcionNoticia1 {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
-
-#noticia2 {
-  text-align: center;
-  padding-top: 15px;
-  color: #ce329a; }
-
-#descripcionNoticia2 {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif; }
-
-#galeria {
-  text-align: center;
-  color: #ce329a;
-  font-size: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-top: 35px; }
-
-.ordengaleria {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); }
-
-.fotito {
-  width: 100%;
-  height: 100%; }
 
 .derechos {
   text-align: center; }
@@ -90,45 +52,44 @@
   height: 100%; }
 
 .cajamenu2 {
-  background-color: #ce329a;
-  padding: 50px;
-  background-image: linear-gradient(to bottom, #ce329a, #29dbdb); }
+  background-color: #4c4c4c;
+  padding: 50px; }
   .cajamenu2 #tituloequipo {
-    color: #29dbdb;
+    color: white;
     text-align: center;
     font-size: 80px;
     padding-bottom: 40px;
-    font-style: italic;
+    font-style: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
   .cajamenu2 #menuprincipalequipo ul li {
-    border: groove 3px #29d4d4;
+    border: groove 3px #080808;
     padding: 20px 45px;
     display: inline-block;
-    color: #29dbdb;
-    background-color: #ce329a;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    color: #080808;
+    background-color: #29d4d4; }
   .cajamenu2 #bienvenidaequipo {
     color: #ce329a;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic; }
+    font-style: normal;
+    font-size: 35px; }
 
 .conoce {
-  background-color: #29d4d4; }
+  background-color: #4c4c4c; }
   .conoce #tituloconoce {
-    color: #ce329a;
+    color: white;
     text-align: center;
     padding-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
   .conoce #descripcionconoce {
-    color: #ce329a;
+    color: #29d4d4;
     text-align: center;
     padding-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .plantel {
-  background-color: #29d4d4;
+  background-color: #4c4c4c;
   padding-top: 50px; }
   .plantel #nuestroplantel {
     color: #ce329a;
@@ -137,7 +98,14 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .tabla {
-  border-spacing: 2px; }
+  border-spacing: 2px;
+  border-color: #29d4d4; }
+  .tabla .jugadores {
+    color: white; }
+  .tabla .posiciones {
+    color: white; }
+  .tabla .numeros {
+    color: white; }
   .tabla #jugador {
     color: #ce329a;
     font-style: italic;
@@ -152,19 +120,23 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .conocejugadores {
-  background-color: #29d4d4;
-  background-image: linear-gradient(to bottom, #29dbdb, #ce329a);
+  background-color: #4c4c4c;
   padding-top: 50px; }
   .conocejugadores #players {
-    color: #ce329a;
+    color: white;
     text-align: center;
     padding-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .conocejugadores .gonza .datos {
+    color: white;
+    padding-top: 15px; }
   .conocejugadores .gonza #titulogonza {
+    color: #29d4d4;
     text-align: center;
     padding-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
   .conocejugadores .gonza #biografia {
+    color: white;
     padding-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic; }
@@ -174,45 +146,154 @@
 
 /*CSS PAGINA CONTACTO*/
 .cajamenu3 {
-  background-color: #ce329a;
-  padding: 50px;
-  background-image: linear-gradient(to bottom, #ce329a, #29dbdb); }
+  background-color: #4c4c4c;
+  padding: 50px; }
   .cajamenu3 #titulocontacto {
-    color: #29dbdb;
+    color: white;
     text-align: center;
     font-size: 80px;
     padding-bottom: 40px;
-    font-style: italic;
+    font-style: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
   .cajamenu3 #menuprincipalcontacto ul li {
-    border: groove 3px #29d4d4;
+    border: groove 3px #080808;
     padding: 20px 45px;
     display: inline-block;
-    color: #29dbdb;
-    background-color: #ce329a;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    color: #080808;
+    background-color: #29d4d4; }
   .cajamenu3 #bienvenidacontacto {
     color: #ce329a;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic; }
+    font-style: normal;
+    font-size: 35px; }
 
 .mensaje {
-  background-color: #29d4d4;
-  background-image: linear-gradient(to bottom, #29dbdb, #ce329a);
+  background-color: #4c4c4c;
   padding-top: 50px; }
   .mensaje #titulomensaje {
-    color: #ce329a;
+    color: white;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     padding-bottom: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
   .mensaje #escribimensaje {
+    color: #29d4d4;
     font-style: italic;
     font-size: 20px;
+    padding-top: 40px;
     padding-bottom: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
+.colorcito {
+  color: white; }
+
 .derechos3 {
+  text-align: center; }
+
+/* CSS PAGINA NOTICIAS */
+.cajaMenu4 {
+  background-color: #4c4c4c;
+  padding: 50px; }
+  .cajaMenu4 #titulonoticias {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    padding-bottom: 40px;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .cajaMenu4 #menuprincipalnoticias ul li {
+    border: groove 3px #080808;
+    padding: 20px 45px;
+    display: inline-block;
+    color: #080808;
+    background-color: #29d4d4; }
+  .cajaMenu4 #bienvenidanoticias {
+    color: #ce329a;
+    text-align: center;
+    padding-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 35px; }
+
+.cajanoticias {
+  background-color: #4c4c4c;
+  padding: 50px; }
+
+.titulonoticias {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.noticia1 {
+  text-align: center;
+  padding-top: 40px;
+  color: #29d4d4; }
+
+#descripcionNoticia1 {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.noticia2 {
+  text-align: center;
+  padding-top: 15px;
+  color: #29d4d4; }
+
+#descripcionNoticia2 {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+.derechos4 {
+  text-align: center; }
+
+/* CSS PAGINA GALERIA */
+.cajaMenu5 {
+  background-color: #4c4c4c;
+  padding: 30px; }
+  .cajaMenu5 #titulogaleria {
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    padding-bottom: 40px;
+    font-style: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .cajaMenu5 #menuprincipalGaleria ul li {
+    border: groove 3px #080808;
+    padding: 20px 45px;
+    display: inline-block;
+    color: #080808;
+    background-color: #29d4d4; }
+  .cajaMenu5 #bienvenidagaleria {
+    color: #ce329a;
+    text-align: center;
+    padding-top: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 35px; }
+
+.cajagaleria {
+  background-color: #4c4c4c;
+  padding: 50px; }
+
+.galeria {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.ordengaleria {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+.fotito {
+  width: 100%;
+  height: 100%; }
+
+.derechos5 {
   text-align: center; }
